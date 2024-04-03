@@ -1,0 +1,48 @@
+.file-explorer {
+    font-family: Arial, sans-serif;
+    background-color: aliceblue;
+    height: 100vh;
+    background-size: cover;
+    padding: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  .folder {
+    background-color: #f59797;
+    border: 1px solid #f4a8a8;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .folder:hover {
+    background-color: #e0e0e0;
+  }
+  
+  button {
+    margin-left: 5px;
+    padding: 3px 8px;
+    cursor: pointer;
+    background-color: rgb(55, 76, 76);
+    color: rgb(226, 217, 206);
+    border: 1px solid rgb(55, 76, 76);
+    border-radius: 3px;
+  }
+  
+  .file-explorer-icon{
+    color: rgb(245, 218, 40);
+    padding: 2px;
+    margin-top: 5px;
+  }
+  
+  .span-element{
+    color: #ea9898;
+  }
